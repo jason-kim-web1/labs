@@ -1,0 +1,27 @@
+{
+  "name": "nx-no-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -p 80",
+    "dev:http": "PORT=80 node dev-server.js",
+    "dev:https": "./certgen.sh && PORT=443 node dev-server.js",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "next": "^15.2.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.14.0",
+    "@types/react": "19.1.0",
+    "typescript": "5.8.3"
+  }
+}
