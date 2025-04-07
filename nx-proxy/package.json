@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev:http": "PORT=80 node dev-server.js",
-    "dev:https": "./certgen.sh && PORT=443 node dev-server.js",
+    "cert": "./certgen.sh",
+    "dev": "node dev-server.js",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
