@@ -1,7 +1,7 @@
 #!/bin/bash
 rm -rf certs
 mkdir -p certs && cd $_
-mkcert -install
+# mkcert -install
 mkcert -key-file key.pem -cert-file cert.pem \
 local.kurly.com \
 now.local.kurly.com \
